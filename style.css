@@ -1,17 +1,29 @@
 
-.container {
-    /* height: 90vh;
-    margin 2rem; */
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    /* grid-template-rows: repeat(16, 1fr); */
+h1 {
+    font-family: copperplate;
+    text-align: center;
+}
 
+.buttonDiv {
+    text-align: center;
+}
+.container {
+    width: 575px;
+    height: 575px;
+    display: grid;
+    
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 5px solid white;
+    border-radius: 5px;
 }
 
 .square {
-    background-color: cornflowerblue;
-    border-color: black;
-    display: ;
-
+    background-color: lightgrey;
+    /* border-color: black; */
+    
+    height: ;
+    
+    border: 0.5px solid gray;
 
 }
