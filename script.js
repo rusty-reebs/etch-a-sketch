@@ -29,14 +29,10 @@ function reset () {
 
 buildGrid ();
 
-// document.getElementById("reset").click = reset ();
-
-let resetMe = document.getElementById("reset");
-// resetMe.addEventListener("onclick", reset ());
+const resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", reset);
 
 
-/* let clickReset = document.getElementById("reset");
-    if (clickReset.addEventListener) clickReset.addEventListener("onclick", removeAllChildNodes (container), false);
-    else if (clickResetTwo.addEventListener) clickResetTwo.addEventListener("onclick", buildGrid ());
 
-*/
+
+
