@@ -13,5 +13,6 @@ What did I learn?
 Important dates
 
 June 3, 2021 -- started project
+
 June 8, 2021 -- finished project, complete with reset button, prompt,
                 and max number of lines
