@@ -1,29 +1,49 @@
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
 h1 {
     font-family: copperplate;
     text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px lightgray;
 }
 
 .buttonDiv {
     text-align: center;
 }
+
+button {
+    width: 120px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
 .container {
     width: 575px;
     height: 575px;
     display: grid;
-    
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     border: 5px solid white;
     border-radius: 5px;
+    
 }
 
 .square {
-    background-color: lightgrey;
-    /* border-color: black; */
-    
-    height: ;
-    
+    background-color: lightgrey;    
     border: 0.5px solid gray;
 
 }
